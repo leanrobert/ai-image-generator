@@ -11,11 +11,16 @@ A mockup project that uses OpenAI API to generate images based on a prompt giben
 - CRUD operations with images to store them on MongoDB
 
 ## Technologies Used
-- React JS
-- Node.js
-- Express
-- MongoDB
-- TailwindCSS
+[![React](https://img.shields.io/badge/Frontend-React-9cf)](https://reactjs.org/)
+<br>
+[![TailwindCSS](https://img.shields.io/badge/Frontend-TailwindCSS-9cf)](https://tailwindcss.com/)
+<br>
+[![NodeJS](https://img.shields.io/badge/Backend-NodeJS-brightgreen)](https://nodejs.org/en/)
+<br>
+[![Express](https://img.shields.io/badge/Backend-ExpressJS-black)](https://expressjs.com/)
+<br>
+[![MongoDB](https://img.shields.io/badge/Backend-MongoDB-green)](https://www.mongodb.com/)
+
 
 ## Credits
 Tutorial on YouTube by [JavaScript Mastery](https://www.youtube.com/watch?v=EyIvuigqDoA)
