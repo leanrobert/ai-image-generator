@@ -20,10 +20,13 @@ const CreatePost = () => {
   const handleSubmit = () => {}
 
   const handleChange = (e) => {
-
+    setForm({ ...form, [e.target.name]: e.target.value })
   }
 
-  const handleSurprieMe = () => {}
+  const handleSurpriseMe = () => {
+    const randomPrompt = getRandomPrompt(form.prompt)
+    setForm({ ...form, prompt: randomPrompt })
+  }
 
   return (
     <section className='max-w-7xl mx-auto'>
@@ -50,7 +53,7 @@ const CreatePost = () => {
             value={form.prompt}
             handleChange={handleChange}
             isSurpriseMe
-            handleSurprieMe={handleSurprieMe}
+            handleSurpriseMe={handleSurpriseMe}
           />
 
           <div className='relative bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 w-64 p-3 h-64 flex justify-center items-center'>
